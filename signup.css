@@ -1,0 +1,64 @@
+body{
+    background-color: white;
+}
+.box{
+    height: 60vh;
+    width: 22vw;
+    border: 2px solid rgb(231, 210, 210);
+    margin-left:500px ; 
+    margin-top: 0px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px;
+
+   
+}
+input{
+    margin: 4px;
+    margin-left: 20px;
+    width: 250px;
+margin-top: 5px;
+       
+   
+}
+label{
+        margin: 4px;
+        margin-left: 20px;
+        padding: auto;
+        font-weight: bold;
+        
+}
+
+p{
+    margin: 4px;
+        margin-left: 20px;
+}
+h4{
+    margin: 4px;
+        margin-left: 20px;
+}
+button{
+    margin: 4px;
+        margin-left: 20px;
+        width: 256px;
+        background-color: rgb(red, green, blue);
+        background-color: rgb(255, 183, 0);
+        border: 1px solid rgb(50, 49, 43);
+        border-radius: 2px;
+        height: 25px;
+}
+h2{
+    margin-left: 20px;
+}
+img{
+    height: 10vh;
+    width: 20vh;
+    margin-left: 580px;
+    margin-bottom: 0px;
+
+}
+i{
+    color: blue;
+}
+button:hover{
+    background-color: bisque;
+}
