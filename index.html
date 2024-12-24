@@ -3,9 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Amazon login page</title>
+    <style>
+        body{
+            margin-top: 100px;
+            background-color: rgb(255, 255, 255);
+            height: 100vh;
+        }
+        .main{
+            background-color: rgb(255, 255, 255);
+            border: 2px black solid;
+            border-radius: 5px;
+            width: 310px;
+            height: 450px;
+            margin-left: 500px;
+        }
+        .main .inner{
+            background-color: rgb(255, 255, 255);
+            padding: 13px;
+        }
+        .main .apt{
+            border-radius: 3px;
+            width: 280px;
+            height: 22px;
+        }
+        .main .ppt{
+            border-radius: 3px;
+            width: 283px;
+        }
+        .main .lot{
+            border-radius: 3px;
+            width: 285px;
+            height: 30px;
+            font-weight:600;
+            background-color: rgb(255, 218, 9);
+        }
+        .main .hht{
+            border-radius: 3px;
+            width: 285px;
+            height: 30px;
+            font-weight: 500;
+            background-color: rgb(246, 246, 246);
+        }
+        .fft img{
+            margin-left:100px;
+            width: 100px;
+            height: 50px;
+        }
+
+        .main .inner .xxt{
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    
+
+    <div class="main">
+        <div class="fft">
+            <img src="download.png" alt="">
+        </div>
+            <div class="inner">
+                <h2>Login</h2>
+            <label for="email">Enter email or phone number</label>
+            <input type="text " id="email" class="apt"><br>
+            <label for="password">Password</label><br>
+            <input type="password" id="password"  class="apt"><br><br>
+            <button  class="ppt lot">Login</button><br>
+            <p><input type="checkbox">Keep me singed in. <span style="color: blue;">Deatils</span></p>
+            <!-- <span> <hr> </span>--><p class="xxt">New to Amazon?</p> 
+            <button  class="ppt hht">Create Your Amazon account</button>
+            </div>
+    </div>
 </body>
 </html>
